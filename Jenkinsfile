@@ -9,15 +9,14 @@ pipeline {
             }
         }
 
-            stages {
-
+    
         stage('Create Directories') {
             steps {
                 bat 'mkdir dir1'
                 bat 'mkdir dir2'
             }
         }
-            }          
+               
                 
        stage('Run comparing directories.sh') {
             steps {
