@@ -23,6 +23,12 @@ pipeline {
                 bat '"C:\\Program Files\\Git\\bin\\bash.exe" comparing-directories.sh dir1 dir2'
             }
         }  
+
+        stage('Run echo-command.sh') {
+            steps {
+                bat '"C:\\Program Files\\Git\\bin\\bash.exe" echo-command.sh'
+            }
+        }  
         
     }
 }  
