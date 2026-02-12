@@ -10,7 +10,7 @@ pipeline {
         }
        stage('Run comparing directories.sh') {
             steps {
-                bat '"C:\\Program Files\\Git\\bin\\bash.exe" comparing-directories.sh'
+                bat '"C:\\Program Files\\Git\\bin\\bash.exe" comparing-directories.sh dir1 dir2'
             }
         }  
         
