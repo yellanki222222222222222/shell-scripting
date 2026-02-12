@@ -5,6 +5,6 @@ pipeline {
 
         stage('Run Shell Script') {
             steps {
-                bat '"C:\Program Files\Git\bin\bash.exe" arguments.sh'
+                bat '"C:\\Program Files\\Git\\bin\\bash.exe" arguments.sh'
             }
         }
