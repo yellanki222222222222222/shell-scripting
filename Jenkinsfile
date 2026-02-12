@@ -17,6 +17,7 @@ pipeline {
                 bat 'mkdir dir2'
             }
         }
+            }          
                 
        stage('Run comparing directories.sh') {
             steps {
